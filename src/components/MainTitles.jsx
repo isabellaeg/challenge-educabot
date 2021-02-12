@@ -1,18 +1,18 @@
 import { Grid, Typography, Box, makeStyles } from '@material-ui/core'
 
 const useStyles = makeStyles(() => ({
-    title: {
-      marginTop: 20,
-      fontFamily: 'DM Sans',
-      fontSize: 20,
-      fontWeight: 'bold',
-      textAlign: 'left',
-      marginLeft: 70,
-      textTransform: 'uppercase'
-    }
-  }))
+  title: {
+    marginTop: 20,
+    fontFamily: 'DM Sans',
+    fontSize: 20,
+    fontWeight: 'bold',
+    textAlign: 'left',
+    marginLeft: 70,
+    textTransform: 'uppercase'
+  }
+}))
 
-const  MainTitle = ({ title }) => {
+const MainTitle = ({ title }) => {
   const classes = useStyles()
   return (
     <Grid item xs={12} sm={3}>

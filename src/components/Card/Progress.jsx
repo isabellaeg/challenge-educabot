@@ -4,22 +4,21 @@ import CheckCircleIcon from '@material-ui/icons/CheckCircle'
 import HourglassFullIcon from '@material-ui/icons/HourglassFull'
 
 const useStyles = makeStyles(() => ({
-    lightText: {
-        fontFamily: 'DM Sans',
-        fontStyle: 'normal',
-        fontWeight: 'normal',
-        fontSize: 14,
-        color: 'grey'
-      },
-      darkText: {
-        fontFamily: 'DM Sans',
-        fontStyle: 'normal',
-        fontWeight: 'bold',
-        fontSize: 14,
-        color: 'black'
-      },
-  }))
-
+  lightText: {
+    fontFamily: 'DM Sans',
+    fontStyle: 'normal',
+    fontWeight: 'normal',
+    fontSize: 14,
+    color: 'grey'
+  },
+  darkText: {
+    fontFamily: 'DM Sans',
+    fontStyle: 'normal',
+    fontWeight: 'bold',
+    fontSize: 14,
+    color: 'black'
+  }
+}))
 
 const Progress = ({ data }) => {
   const classes = useStyles()

@@ -4,25 +4,25 @@ import Brightness1Icon from '@material-ui/icons/Brightness1'
 import shape from '../../assets/Shape.png'
 
 const useStyles = makeStyles(() => (
-    {
-        bottom: {
-            borderTop: '1px solid #DFDFDA',
-            padding: 15
-          },
-          roundedButton: {
-            borderRadius: 50,
-            border: '1px solid #DFDFDA',
-            padding: 3,
-            width: '20px'
-          },
-          tag: {
-            fontFamily: 'DM Sans',
-            fontSize: 14,
-            fontWeight: 'bold'
-          }
+  {
+    bottom: {
+      borderTop: '1px solid #DFDFDA',
+      padding: 15
+    },
+    roundedButton: {
+      borderRadius: 50,
+      border: '1px solid #DFDFDA',
+      padding: 3,
+      width: '20px'
+    },
+    tag: {
+      fontFamily: 'DM Sans',
+      fontSize: 14,
+      fontWeight: 'bold'
+    }
   }))
 
-const Footer =  ({ data }) => {
+const Footer = ({ data }) => {
   const classes = useStyles()
 
   return (
@@ -47,7 +47,7 @@ const Footer =  ({ data }) => {
       >
         <Grid item>
           <Brightness1Icon
-            style={{ color: '#01CEAA', paddingTop: 2, height: '8px', width: '8px'}}
+            style={{ color: '#01CEAA', paddingTop: 2, height: '8px', width: '8px' }}
             fontSize='small'
           />
         </Grid>
@@ -56,11 +56,10 @@ const Footer =  ({ data }) => {
         </Grid>
       </Grid>
       <Grid item>
-        <img src={shape} alt="comment"/>
+        <img src={shape} alt='comment' />
       </Grid>
     </Grid>
   )
 }
-
 
 export default Footer
