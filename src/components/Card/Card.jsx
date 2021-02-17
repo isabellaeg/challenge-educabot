@@ -8,7 +8,7 @@ const useStyles = makeStyles(() => ({
     border: '1px solid #DFDFDA',
     borderRadius: 8,
     marginTop: '5%',
-    margingLeft: '200px'
+    margingLeft: '20px'
   }
 }))
 
